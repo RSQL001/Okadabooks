@@ -8,8 +8,8 @@
   {
     "name":     "margin",
     "type":     "Number",
-    "Default":  "20",
-    "desc":     "margin-right(20px) on item."
+    "Default":  "0",
+    "desc":     "margin-right(px) on item."
   },
   {
     "name":     "loop",
