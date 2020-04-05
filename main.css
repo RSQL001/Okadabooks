@@ -704,7 +704,7 @@ text-transform: none;
     text-align: center;
 }
 
-@media (max-width: 360px) {
+@media (min-width: 360px), (max-width: 460px){
 
     #navbarNav ul {
         line-height: 2em;
@@ -720,14 +720,21 @@ text-transform: none;
         padding-right: 2.5em;
     }
 
+    .body-3 {
+        position: relative;
+        padding: 1.5 0em;
+    }
+
     .body-3 p {
-        padding: 2em;
+        padding: 0 0em;
+        position: ;
     }
 
     .body-3 img {
-        width: 50%;
-        margin-top: -23.5em;
-        margin-left: 5em;
+        position: absolute;
+        width: 40%;
+        margin-top: -20.7em;
+        margin-left: 7em;
         height: 3em;
     }
 
@@ -749,6 +756,67 @@ text-transform: none;
 
     .body-4 img {
         margin: 0.7em 0;
+    }
+
+    .body-5 h2 {
+        margin-top: 1.5em;
+        margin-bottom: 20px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bolder;
+        font-size: 24px;
+    }
+
+    .body-6 {
+        padding: 2.5em 2em;
+    }
+
+    .body-7 h1 {
+        line-height: 1.5;
+    }
+
+    .body-7 p {
+        padding: 0em 0.8em;
+    }
+
+    .body-9 .textbox-main {
+        padding: 0em 1.5em;
+        padding-bottom: 1em;
+    }
+
+    .body-10 {
+        padding-bottom: 5em;
+        margin-bottom: -5em;
+        margin-top: 5em;
+        position: relative;
+        text-align: center;
+    }
+
+    .body-10 h1 {
+        font-size: 30px;
+    }
+
+    .body-10 p {
+        margin: 0 0em;
+        padding: 2em;
+        padding-top: 0em;
+    }
+
+    .hero-one {
+        padding-top: 5px;
+        margin-top: 3.5em;
+    }
+
+    .hero-two {
+        padding-top: 5px;
+        margin-top: 5.5em;
+        margin-bottom: -10em;
+    
+    }
+
+    .body-11  {
+        margin-top: 8em;
+        padding: 0.5em 0em;
+        
     }
 }
 
