@@ -1,11 +1,12 @@
 $(document).ready(function(){
   $('.owl-carousel').owlCarousel({
       loop:true,
+      singleItem: true
       margin:10,
       nav:false,
       responsive:{
           0:{
-              item:1
+              items:1
           },
           760:{
             items:1
