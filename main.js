@@ -5,9 +5,9 @@ $(document).ready(function(){
       nav:false,
       responsive:{
           0:{
-              items:1
+              item:1
           },
-          600:{
+          760:{
             items:1
         },
           1000:{
